@@ -242,15 +242,6 @@
   z-index: 0;
 }
 
-.section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  width: 60%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
