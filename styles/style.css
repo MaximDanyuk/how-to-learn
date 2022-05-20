@@ -33,13 +33,14 @@
 .header__title {
   max-width: 730px;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   color: #000;
   font-size: 102px;
   line-height: 96px;
   font-weight: 700;
   z-index: 1;
   padding: 0;
+  position: relative;
 }
 
 .header__subtitle {
@@ -81,7 +82,6 @@
 }
 
 .description {
-  color: #000;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -113,7 +113,7 @@
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
   font-weight: normal;
   padding: 0;
 }
@@ -129,13 +129,11 @@
 
 .section-title {
   width: 60%;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0;
 }
 
@@ -145,9 +143,7 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 60px auto;
   padding: 0;
 }
 
@@ -165,7 +161,7 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
@@ -197,10 +193,8 @@
 
 .feynman__title {
   width: 648px;
-  margin-bottom: 70px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 70px auto;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
@@ -209,8 +203,7 @@
 
 .feynman__subtitle {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   line-height: 51px;
   font-size: 36px;
   padding: 0;
@@ -251,7 +244,7 @@
   top: 0;
   z-index: -1;
   background-repeat: no-repeat;
-  object-fit: contain;
+  background-size: cover;
 }
 .table__cell_theme_dark {
   width: 200px;
@@ -313,7 +306,7 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
   padding-left: 0;
   text-align: left;
   list-style-type: none;
@@ -326,12 +319,15 @@
   text-align: left;
 }
 
-.footer__column_content-social {
+.footer__column {
   display: flex;
   flex-direction: column;
 }
 
+.footer__column_content-social {
+  justify-content: flex-start;
+}
+
 .footer__column_content-info {
-  display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
 }
