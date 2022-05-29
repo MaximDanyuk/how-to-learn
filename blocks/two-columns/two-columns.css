@@ -6,8 +6,3 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-.two-columns__paragraph:nth-of-type(2n) {
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
