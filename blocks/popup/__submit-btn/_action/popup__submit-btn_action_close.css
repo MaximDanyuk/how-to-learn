@@ -1,0 +1,13 @@
+.popup__submit-btn_action_close {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: -27px;
+  right: -26px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.popup__submit-btn_action_close:hover {
+  opacity: 0.6;
+}

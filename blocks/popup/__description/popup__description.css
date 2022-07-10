@@ -1,0 +1,10 @@
+.popup__description {
+  width: 435px;
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+.popup__description:last-child {
+  margin: 20px 0 0 0;
+  width: 545px;
+}
